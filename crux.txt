@@ -1,0 +1,32 @@
+Bootstrap is built with flexbox
+Most of our components are built with flexbox enabled.
+
+flex as this would add many unnecessary overrides and unexpectedly change key browser behaviors.
+
+--------flexbox-------------
+Use the margin and padding spacing utilities 
+to control how elements and components are spaced and sized.
+six-level scale for spacing utilities based on a 1rem
+
+Toggle visibility 
+Alerts can also contain additional HTML elements like headings, paragraphs and dividers.
+
+
+Similarly, you can use flexbox utilities and Bootstrap Icons to create alerts with icons
+
+
+dissmissable alert 
+notice: When an alert is dismissed, the element is completely removed from the page structure. If a keyboard user dismisses the alert using the close button, their focus will suddenly be lost and, depending on the browser, reset to the start of the page/document. For this reason, we recommend including additional JavaScript that listens for the closed.bs.alert event and programmatically sets focus() to the most appropriate location in the page
+tabindex="-1"--- If you’re planning to move focus to a non-interactive element that normally does not receive focus
+
+
+As part of Bootstrap’s evolving CSS variables approach, Sass variables ,Sass mixin @mixin alert-variant($background, $border, $color) {  --#{$prefix}alert-color: #{$color};
+
+
+
+
+
+
+
+
+
