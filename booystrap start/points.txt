@@ -1,0 +1,161 @@
+what is the difference between compiled css   vs cdn
+
+/////////////////////////////////////////////
+
+What is the difference between CDN and Bootstrap?
+Bootstrap local vs CDN | What is a CDN and their Benefits?
+A CDN is a tool that shortens the path taken by information between the user and the servers. Bootstrap websites hosted locally make use of a single server, which can slow down information transfer. CDNs comprise a network of servers located in different locations around the world.
+/////////////////////////////////////////////
+
+Bootstrap local vs. CDN – ways a CDN can speed up a Bootstrap themed website
+
+Does your Bootstrap themed website move fast enough for your users? Speed is one of the most important factors required to keep your users on your website, especially if they visit for the first time.
+
+When you have a Bootstrap themed local website, the chances are that it can use some speed boost. One of the best ways to accomplish that is by using a CDN (Content Delivery Network) to deliver static content to the users faster. CDNs are effective ways to boost page speed and enhance user engagement at the same time.
+
+Here are four ways of using CDN that can help to improve a Bootstrap website.
+
+What is a CDN?
+A CDN is a tool that shortens the path taken by information between the user and the servers. Bootstrap websites hosted locally make use of a single server, which can slow down information transfer. CDNs comprise a network of servers located in different locations around the world.
+
+Whenever a user accessed a Bootstrap themed website, the information they are looking for is pulled from the CDN servers closest to the user’s location. This results in a faster flow of data between the servers and the website.
+
+Bootstrap local vs. CDN – the benefits
+CDNs deliver faster loading speeds for readers.
+A CDN can store content in different formats, which can contribute to faster loading for different users. Because this content is readily available, it is pushed to users faster than would be the case in a local website server.
+
+Files that CDNs can host include JavaScript, images, web fonts, stylesheets, video and audio files, and other file formats like PPT, HTML, PDF, ZIP, and more. As a rule of thumb, any content saved in WP -content and WP-include folders for WordPress can be stored in a CDN server.
+
+When you use CDN on your website, you improve the site's speed, reducing the time taken for information to be requested, retrieved, and sent back to the user. A faster website is important, especially for e-commerce sites, and can work to increase conversion rates. Increasing the speed by 2 seconds can result in as much as a 14% boost in conversions.
+
+CDNs lower the cost of bandwidth.
+Because of the way CDNs serve data to users, it consumes less bandwidth across multiple servers. If your hosting is charged based on bandwidth, using CDN is an easy way of reducing your hosting expenditure.
+
+Bandwidth reduction occurs because CDNs use multiple servers to deliver content to users on demand. This reduces the amount of inquiries handled by your main server at any particular time. You can check your hosting plan to see if using a CDN can reduce the cost of hosting.
+
+Improved SEO
+Because CDNs improve a website’s loading speed and performance, it improves search engine ranking and search engine optimization. Google gives priority to websites that have faster load times and those that are easy to crawl repeatedly.
+
+The more Google crawls your website, the faster it recognizes content changes and updates. This speedy turnaround for search indexing ensures your content features in search results faster. Generally, content that indexes faster is widely available to users.
+
+All these are part of an SEO cycle that begins with having a healthy Bootstrap website. Sometimes, technical aspects of a website design and framework can influence how easy it is for users to find and consume your web content.
+
+Using a CDN provides an extra layer of security, which helps to mitigate attacks. Combining a CDN with an SSL certificate can also boost the security a notch higher. A well-protected website has better search indexing and ranking.
+
+Handling spikes in traffic
+One of the most common issues with Bootstrap local websites is handling a surge in website traffic. It is the dream of website owners for their content to go viral to boost traffic and improve brand awareness. However, is your site ready for a surge in traffic?
+
+CDNs are also ideal when you need to manage website traffic without the site crashing. A large portion of website traffic is static, meaning it is not continually changing. A CDN ensures that content is delivered quickly while reducing pressure on the local server, thus reducing downtime chances.
+
+CDNs are designed for scalability to ensure your site can handle fluctuations in traffic easily. The last thing you want is to learn of a change in traffic after a website crashes. A CDN can be reliable for all website activities.
+
+Conclusion
+Switching to a CDN can turn your Bootstrap local website to a faster loading website for users, lower your bandwidth costs, and enhance your site's SEO. This makes it a practical option for any website owner.
+
+
+////////////////////////////////////////////////////////
+
+When should you avoid CDN?
+If your website doesn't get enough traffic to keep your files “hot” (in cache) on all the CDN's locations, then the CDN could potentially be serving your visitors cache-misses very often, potentially making your site slower than not using a CDN at all.
+
+////////////////////////////////////////////////////////
+
+"Compiled CSS refers to the process of converting CSS (Cascading Style Sheets) code written in a high-level language such as Sass, Less, or Stylus into plain CSS that can be read by web browsers.
+
+These high-level languages offer a variety of features such as variables, nesting, and mixins that make writing and managing CSS code more efficient and maintainable. However, web browsers do not understand these high-level languages and need plain CSS to apply styles to web pages.
+
+Therefore, developers use a preprocessor to write CSS in a high-level language and then compile it into plain CSS that can be used by web browsers. This compiled CSS is then included in the HTML code and applied to the corresponding web page."
+
+If I understand that correctly, then the only difference between compiled CSS and “normal” CSS is in the way that it is created/generated. But that doesn’t explain why Glide would give you a separate option to use Compiled CSS. That kind of seems a bit pointless. But I guess there must be some subtle difference :man_shrugging:
+////////////////////////////////////////////////////////
+
+Is CSS compiled or interpreted?
+css is a style specification defined by w3c consorcium. This style code is interpreted by browsers.So this is not a compiler nor interpreter it is standard.
+
+////////////////////////////////////////////////////////
+
+Difference between Compiled and Interpreted Language
+
+A compiled language is a programming language that is generally compiled and not interpreted. It is one where the program, once compiled, is expressed in the instructions of the target machine; this machine code is undecipherable by humans. Types of compiled language – C, C++, C#, CLEO, COBOL, etc. 
+
+
+What is Interpreted Language?
+An interpreted language is a programming language that is generally interpreted, without compiling a program into machine instructions. It is one where the instructions are not directly executed by the target machine, but instead, read and executed by some other program. Interpreted language ranges – JavaScript, Perl, Python, BASIC, etc. 
+
+
+ Difference between Compiled and Interpreted Language
+S.NO.	COMPILED LANGUAGE	INTERPRETED LANGUAGE
+1	A compiled language is a programming language whose implementations are typically compilers and not interpreters.	An interpreted language is a programming language whose implementations execute instructions directly and freely, without previously compiling a program into machine-language instructions.
+2	In this language, once the program is compiled it is expressed in the instructions of the target machine.	While in this language, the instructions are not directly executed by the target machine.
+3	There are at least two steps to get from source code to execution.	There is only one step to get from source code to execution.
+4	In this language, compiled programs run faster than interpreted programs.	While in this language, interpreted programs can be modified while the program is running.
+5	In this language, compilation errors prevent the code from compiling.	In this languages, all the debugging occurs at run-time.
+6	The code of compiled language can be executed directly by the computer’s CPU.	A program written in an interpreted language is not compiled, it is interpreted.
+7	This language delivers better performance.	This language example delivers relatively slower performance.
+8	Example of compiled language – C, C++, C#, CLEO, COBOL, etc.	Example of Interpreted language – JavaScript, Perl, Python, BASIC, etc.
+
+////////////////////////////////////////////////////////
+
+What is the difference between Compiler and Interpreter?
+Compiler DesignProgramming LanguagesComputer Programming
+
+Both compilers and interpreters are the language processors used to convert software codes written in high-level language into machine language codes. Compilers and interpreters are types of system software. They are required because a computer cannot process a code written in high-level programming language like C, C++, Java, etc. Therefore, we convert a HLL code into machine code for execution.
+
+In this article, we will highlight all the major differences between a compiler and an interpreter. Let's start with some basics so that it will become easier to understand their differences.
+
+What is a Compiler?
+A language processor that converts a program written in high-level language into machine language, entire program at once, is called a compiler. Thus, the input of a compiler is a high-level language code (called source code), while its output is a machine language code (called object code).
+
+A compiler scans whole program and then check it for syntactic and semantic error, once the code is checked for errors, it is converted into an object code. Then, it can be processed by the machine to perform the corresponding task. The common programming languages that use compiler are C, C++, C#, etc.
+
+Advantages of Compiler
+There are various advantages of the compiler which are as follows −
+
+A compiler translates a program in a single run.
+
+It consumes less time.
+
+CPU utilization is more.
+
+Both syntactic and semantic errors can be checked concurrently.
+
+It is easily supported by many high-level languages like C, C++, JAVA, etc.
+
+What is an Interpreter?
+A language translator that converts a high-level language program into a machine language program, one line at a time, is referred to as an interpreter. Interpreters converts the codes slower than compiler. This is because the interpreter can scan and translate only one statement of the program at a time. Therefore, interpreters convert the source code into machine code during the execution of the program.
+
+Interpreters do not generate an object code corresponding to the source code. However, these are relatively easy to use and execute the code. The programming languages that use interpreters are Perl, Ruby, Python, METLAB, etc.
+
+Advantages of Interpreter
+There are various advantages of the interpreter which are as follows −
+
+An interpreter translates the program line by line.
+
+The interpreter is smaller in size.
+
+It is flexible.
+
+Error localization is easier.
+
+The interpreter facilitates the implementation of computer programming language constructs.
+
+Difference between Compiler and Interpreter
+The following table highlights all the significant differences between a Compiler and an Interpreter −
+
+Parameter	Compiler	Interpreter
+Program scanning	Compilers scan the entire program in one go.	The program is interpreted/translated one line at a time.
+Error detection	As and when scanning is performed, all the errors are shown in the end together, not line by line.	One line of code is scanned, and errors encountered are shown.
+Object code	Compilers convert the source code to object code.	Interpreters do not convert the source code into object code.
+Execution time	The execution time of compiler is less, hence it is preferred.	It is not preferred due to its slow speed. Usually, interpreter is slow, and hence takes more time to execute the object code.
+Need of source code	Compiler doesn’t require the source code for execution later.	It requires the source code for execution later.
+Programming languages	Programming languages that use compilers include C, C++, C#, etc..	Programming languages that uses interpreter include Python, Ruby, Perl, MATLAB, etc.
+Types of errors detected	Compiler can check syntactic and semantic errors in the program simultaneously.	Interpreter checks the syntactic errors only.
+Size	Compiler are larger in size.	Interpreters are smaller in size.
+Flexibility	Compilers are not flexible.	Interpreters are relatively flexible.
+Efficiency	Compilers are more efficient.	Interpreters are less efficient.
+Conclusion
+The most significant difference between a compiler and an interpreter is that a compiler scans the entire program in one go, while an interpreter scans the program line by line. However, both are used in different applications depending on the requirements of the programming language.
+
+//////////////////////////////////////////////////////
+
+
